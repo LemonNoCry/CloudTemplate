@@ -1,7 +1,14 @@
-# BlogCoreTempl
- 
-1、下载最新的 Blog.Core 源代码；  
-2、根目录新建一个content文件夹；   
-3、将源代码拷贝到 content 文件夹下；   
-4、双击 Package.bat 文件，就生成了最新的模板了；  
-5、也可以在`Blog.Core.Webapi.Template.nuspec`中，适当修改版本号；（可选）
+# Ivytalk.Cloud.Template
+1. 更新子模块 Ivytalk.FoodSafety
+2. 双击 Package.bat 文件，就生成了最新的模板了
+3. 或者使用Ivytalk.Cloud.Template.nuspec发布模版
+
+
+## 使用说明
+-
+    在项目目录里 运行 CreateYourProject.bat
+-
+    ```dotnet new -i Ivytalk.Cloud.Template``` 安装最新模版 
+    ```dotnet new IvytalkCloud -n xxxx``` 生成项目 xxx输入项目命名空间 如Ivytalk.FoodSafety
+
+

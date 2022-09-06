@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Ivytalk.Cloud.Template</id>
+    <version>1.0.1</version>
+    <description>
+      Creates a .net core webapi app.
+    </description>
+    <authors>Ivytalk</authors>
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+	<licenseUrl>http://app.renrenhui365.com:82/Big_Projects/Ivytalk.FoodSafety</licenseUrl>
+	<projectUrl>http://app.renrenhui365.com:82/Big_Projects/Ivytalk.FoodSafety</projectUrl>
+	<iconUrl>http://www.ivytalksoft.org/favicon.ico</iconUrl>
+	<copyright>Copyright 2022 </copyright>
+	<tags>Ivytalk asp.net core template</tags>
+  </metadata>
+</package>

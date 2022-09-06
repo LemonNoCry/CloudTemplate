@@ -1,0 +1,3 @@
+[submodule "content"]
+	path = content
+	url = git@app.renrenhui365.com:Big_Projects/Ivytalk.FoodSafety.git

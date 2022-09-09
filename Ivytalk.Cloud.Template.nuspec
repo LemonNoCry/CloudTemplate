@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>Ivytalk.Cloud.Template</id>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
     <description>
       Creates a .net core webapi app.
     </description>
@@ -10,10 +10,13 @@
     <packageTypes>
       <packageType name="Template" />
     </packageTypes>
-	<licenseUrl>http://app.renrenhui365.com:82/Big_Projects/Ivytalk.FoodSafety</licenseUrl>
-	<projectUrl>http://app.renrenhui365.com:82/Big_Projects/Ivytalk.FoodSafety</projectUrl>
-	<iconUrl>http://www.ivytalksoft.org/favicon.ico</iconUrl>
-	<copyright>Copyright 2022 </copyright>
-	<tags>Ivytalk asp.net core template</tags>
+    <licenseUrl>http://app.renrenhui365.com:82/Big_Projects/Ivytalk.FoodSafety</licenseUrl>
+    <projectUrl>http://app.renrenhui365.com:82/Big_Projects/Ivytalk.FoodSafety</projectUrl>
+    <iconUrl>http://www.ivytalksoft.org/favicon.ico</iconUrl>
+    <copyright>Copyright 2022 </copyright>
+    <tags>Ivytalk asp.net core template</tags>
   </metadata>
+  <files>
+    <file src=".\content\" exclude="**\bin;**\obj;**\.vs\**;**\.git\**" target="src" />
+  </files>
 </package>
